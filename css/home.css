@@ -1,0 +1,295 @@
+*{
+	margin:0px;
+	padding: 0px;
+}
+body{
+	margin:0px;
+	padding: 0px;
+	background: url('../img/bg.jpg');
+	background-size: cover;
+}
+.clear{
+	clear: both;
+}
+.appContent{
+	width: 100%;
+	position: relative;
+	float: left;
+	content: "";
+	height: 100%;
+
+}
+.backG{
+	background: linear-gradient(to bottom, rgba(168,197,229,.8) 70%, rgba(255,255,255,.9) 90%);
+	width: 100%;
+	height:100vh;
+	position: fixed !important;
+}
+.container{
+	width: 97%;
+	float: left;
+	margin-left: 1.5%;
+	position: relative;
+}
+.logo{
+	background: red;
+	float: left;
+	padding: 10px;
+	background: white;
+	margin-top: 10px;
+	border-radius: 25px;
+}
+.logo img{
+	width: 200px;
+}
+
+.login{
+	float: left;
+	width: 500px;
+	margin-top: 70px;
+	position: absolute;
+	left: calc(50% - 250px);
+	font-family: arial;
+}
+.login h1{
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 100%;
+	float: left;
+	padding: 20px 0px;
+}
+.login .form{
+	padding: 30px;
+	background: #3988af;
+	float: left;
+	width:calc(100% - 60px);
+	height: 300px;
+	box-shadow: 2px 2px 5px rgba(0,0,0,.3);
+}
+.login .header span{
+	font-size: 35px;
+	font-family: arial;
+	text-transform: uppercase;
+	color: white;
+	margin-bottom: 10px;
+	float: left;
+	width: 100%;
+	text-shadow: 1px 1px 3px black;
+}
+.login	.header p{
+	float: left;
+	width: 100%;
+	color: white;
+	font-family: arial;
+	margin-bottom: 40px;
+}
+.content .optGroup{
+	float: left;
+	width: 100%;
+	height: 40px;
+	color: white;
+}
+.content .optGroup label{
+	width: 110px;
+	float: left;
+	margin-top: 2.5px;
+	font-size: 20px;
+	font-family: arial;
+	font-weight: bold;
+
+}
+.content .optGroup input{
+	width: calc(100% - 120px);
+	float: left;
+	padding: 5px;
+}.content .optGroup select{
+	width: calc(100% - 120px);
+	float: left;
+	padding: 5px;
+}
+
+.optGroup input[type='submit']{
+	float: left;
+	width: 100px;
+	height: 35px;
+	margin-left: calc(50% - 50px);
+	border-radius: 10px;
+	background: #0099ff;
+	border: transparent;
+	color: white;
+	font-weight: bold;
+	box-shadow: 2px 2px  5px rgba(0,0,0,.8);
+	margin-top: 40px;
+}
+
+
+.help{
+	background: transparent;
+	position: absolute;bottom: 0;
+}
+.help i{
+	width: 20px;
+	height: 20px;
+	border-radius: 25px;
+	border:2px solid yellow;
+	left: 0;
+}
+
+@media screen and (max-width:800px){
+	body{
+		width: 100%;
+	}
+	.appContent{
+		width: 100%;
+		float: left;
+	}
+	.container{
+		width: 97%;
+		float: left;
+		margin-left: 1.5%;
+		position: relative;
+	}
+	.logo{
+		float: left;
+		padding: 10px;
+		background: white;
+		margin-top: 10px;
+		border-radius: 25px;
+		width:calc(100% - 20px);
+		margin-bottom: 30px;
+	}
+	.logo img{
+		width: 200px;
+		float: left;
+		margin-left:calc(50% - 100px);
+	}
+	
+	.login{
+		float: left;
+		width: 500px;
+		margin-top: 100px;
+		position: absolute;
+		left: calc(50% - 250px);
+		font-family: arial;
+	}
+	.login h1{
+		text-align: center;
+		margin-top: 20px;
+		margin-bottom: 0px;
+		width: 100%;
+		float: left;
+		padding: 10px 0px;
+	}
+	.login .form{
+		padding: 30px;
+		background: #3988af;
+		float: left;
+		width:calc(100% - 60px);
+		height: 300px;
+		box-shadow: 2px 2px 5px rgba(0,0,0,.3);
+	}
+	.login .header span{
+		font-size: 30px;
+		font-family: arial;
+		text-transform: uppercase;
+		color: white;
+		margin-bottom: 10px;
+		float: left;
+		width: 100%;
+		text-shadow: 1px 1px 3px black;
+	}
+	.login	.header p{
+		float: left;
+		width: 100%;
+		color: white;
+		font-family: arial;
+		font-size:15px;
+		margin-bottom: 20px;
+	}
+	.content .optGroup{
+		float: left;
+		width: 100%;
+		height: auto !important;
+		color: white;
+	}
+	.content .optGroup label{
+		width: 100%;
+		float: left;
+		margin-top: 2.5px;
+		font-size: 20px;
+		font-family: arial;
+		font-weight: bold;
+	
+	}
+	.content .optGroup input{
+		width: 100%;
+		height: 40px;
+		border:0px;
+		float: left;
+		padding: 5px;
+	}
+	
+	.optGroup input[type='submit']{
+		float: left;
+		width: 100px;
+		height: 35px;
+		margin-left: calc(50% - 50px);
+		border-radius: 10px;
+		background: #0099ff;
+		border: transparent;
+		color: white;
+		font-weight: bold;
+		box-shadow: 2px 2px  5px rgba(0,0,0,.8);
+		margin-top: 40px;
+	}
+	
+	
+	.help{
+		background: transparent;
+		position: absolute;bottom: 0;
+	}
+	.help i{
+		width: 20px;
+		height: 20px;
+		border-radius: 25px;
+		border:2px solid yellow;
+		left: 0;
+	}	
+	
+}
+@media screen and ( max-width:520px){
+	.login{
+		width: calc(100% - 30px);
+		left:15px;
+	}
+	.login .form{
+		height:auto !important;
+	}
+}
+
+.cadastro{
+	display: none;
+}
+.option{
+	width: 100%;
+	float:left;
+	background: #1c6e96 ;
+
+}
+.option	.optLogin{
+	float:left;
+	width: calc(100% / 2);
+	border: transparent;
+	height: 35px;
+	color: white;
+	background: transparent;	
+	outline: none !important;
+	cursor: pointer; 
+}
+
+
+.active{
+
+	background: #3988af !important;
+}
